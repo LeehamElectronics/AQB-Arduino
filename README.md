@@ -12,10 +12,12 @@
 * [Setup](#setup)
 
 ## General info
-This project is developed by Liam Price in order to pass the Systems Engineering SAT at BSSC. The overall function of this software is to be uploaded onto Arduino based boards to control and drive the systems involved in my Systems Engineering Project "Automated Quad Bike" or AQB for short. You may use this software and adapt it for your own IoT project if you like.
+This project is developed by Liam Price in order to pass the Systems Engineering School Assesed Task at BSSC. The overall function of this software is to be uploaded onto Arduino based boards to control and drive the systems involved in my Systems Engineering Project "Automated Quad Bike" or AQB for short. You may use this software and adapt it for your own IoT project if you like. You can view the control panel I built for it here:
+https://github.com/LeehamElectronics/AQB-Control-Panel
+
 ## Technologies
 Project is created with:
-* Visual Studio + Arduino Extension
+* Visual Studio + Arduino Extension (Visual Micro)
 * PubSub Client library @ https://github.com/knolleary/pubsubclient/
 * Pretty much any IoT enabled development board such as ESP-32 & ESP8266
 	
