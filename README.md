@@ -1,10 +1,6 @@
 # Automated Quad Bike: Arduino Software Solution
 ### School Assessed Task: Systems Engineering
-#### ------------------------------------------------------------------------------
-#### Note:
-##### Whilst working on this project I will commit all changes into GitHub in order to keep track of my work and for authenticity purposes.
-##### I will also create releases at certain stages which you can download in the releases page. I will only ever create releases when the program is in a working condition and I will only do this when major changes have been made.
-#### ------------------------------------------------------------------------------
+
 ![GitHub Logo](media/AQB-AC-GitHub-Logo.png)
 ## Table of contents
 * [General info](#general-info)
@@ -14,6 +10,7 @@
 ## General info
 This project is developed by Liam Price in order to pass the Systems Engineering School Assesed Task at BSSC. The overall function of this software is to be uploaded onto Arduino based boards (esp32) to control and drive my Systems Engineering Project "Automated Quad Bike" or AQB for short. You may use this software and adapt it for your own IoT project if you like. You can view the control panel I built for it here:
 https://github.com/LeehamElectronics/AQB-Control-Panel
+Here is a YouTube video with a basic demonstration of the system: https://www.youtube.com/watch?v=ic49dhoIEfM
 
 ## Technologies
 Project is created with:
