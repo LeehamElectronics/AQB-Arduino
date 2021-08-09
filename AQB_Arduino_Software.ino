@@ -169,7 +169,7 @@ void setup() {
 
 	Serial.println("Connecting to WiFi...");
 	/* If no known WiFi networks are found, enter config AP portal mode... */
-	if (!wifiManager.autoConnect("AQB WiFi Connect", "CiscoAQB123")) {
+	if (!wifiManager.autoConnect(PORTAL_SSID, WIFI_PORTAL_PASS)) {
 		Serial.println("failed to connect and hit timeout");
 		/* Reset and try again */
 		AQB_SYS_SHUTDOWN();
