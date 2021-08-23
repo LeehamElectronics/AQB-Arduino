@@ -486,6 +486,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 	}
 }
 
+
 /* This function runs when we are trying to connect to the MQTT server */
 void reconnect() {
 	// Loop until we're reconnected
@@ -494,17 +495,12 @@ void reconnect() {
 		// Attempt to connect
 		if (client.connect("AQB-ESP32", MQTT_USERNAME, MQTT_PASSWORD)) {
 			Serial.println("connected");
-			client.subscribe("/AQB/in");
-			client.subscribe("/AQB/in/SW_btn_d");
-			client.subscribe("/AQB/in/SW_btn_u");
-			client.subscribe("/AQB/in/SW_axs_0");
-			client.subscribe("/AQB/in/SW_axs_1");
-			client.subscribe("/AQB/in/SW_axs_2");
-			client.subscribe("/AQB/in/swaN"); // Used for updating steering wheel allignment...
-			client.subscribe("/AQB/in/tu");
-			client.subscribe("/AQB/in/npps"); // New ping pong session topic...
-			client.subscribe("/AQB/in/pp"); // ping pong messages
-			client.subscribe("/AQB/irrelevent");
+
+			for (int i = 0; i <= amountOfTopics; i++)
+			{
+				client.subscribe(mqttSubscriptions[i]);
+			}
+
 			sendWifiDetails();
 			digitalWrite(RED_LED_RGB_PIN, LOW);
 			Serial.println("MQTT Connected. Yayyy!");
