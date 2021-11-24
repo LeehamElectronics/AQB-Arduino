@@ -1,6 +1,6 @@
 ﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- *                                                      PLEASE READ THE FOLLOWING!                                                         *
- *                               This open source software was written by Liam Price 2020 and is FREE to use...                            *
+ *                                                  PLEASE READ THE FOLLOWING! or don't                                                    *
+ *                                   Written by Liam Price 2020 and is free to use for non commerical purposes.                            *
  *                                                                                                                                         *
  * The purpose of this software is to compile and run on an Arduino based IoT device, like an ESP32. This is used to control an 'Automated *
  * Quad Bike' that I designed to be controlled from a computer steering wheel joystick, however you can use the code for any robot project *
